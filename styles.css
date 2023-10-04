@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Font+Name');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap');
 
 body{
     width: 100%;
@@ -172,6 +172,7 @@ body{
     border-radius: 10px;
     position: relative;
     background-color: white;
+  
 }
 
 .hr-top{
@@ -500,13 +501,16 @@ body{
 .review-cards{
     flex-wrap: wrap;
 }
+.card:hover,.card1:hover,.card2:hover,.card3:hover,.card4:hover{
+    border: 4px solid #D7D7D7;
+}
 .card{
     width: 398px;
     height: 261px;
     padding: 24px;
     border-radius: 10px;
     margin-top: -100px;
-    border: 2px;
+    border: 2px solid black;
     box-shadow: 5px 5px 5px 0px rgb(187, 185, 200);
 }
 
@@ -539,12 +543,15 @@ body{
     left: 413px;
     padding: 24px;
     border-radius: 10px;
-    border: 2px;
+    border: 2px solid black;
     background-color: #fff;
 }
 .card1-body{
     width: 350px;
     height: 192px;
+}
+.card1:hover{
+    border: 2px #D7D7D7;
 }
 .card1-footer{
     color: gray;
@@ -562,7 +569,7 @@ body{
     left: 828px;
     padding: 24px;
     border-radius: 10px;
-    border: 2px;
+    border: 2px solid black;
     margin-top: -60px;
     background-color: #fff;
     box-shadow: 5px 5px 5px 0px rgb(187, 185, 200);
@@ -585,7 +592,7 @@ body{
     top: 281px;
     padding: 24px;
     border-radius: 10px;
-    border: 2px;
+    border: 2px solid black;
     margin-top: -130px;
     background-color: #fff;
     box-shadow: 5px 5px 5px 0px rgb(187, 185, 200);
@@ -610,7 +617,7 @@ body{
     left: 413px;
     padding: 24px;
     border-radius: 10px;
-    border: 2px;  
+    border: 2px solid black;  
     background-color: #fff;
     box-shadow: 5px 5px 5px 0px rgb(187, 185, 200);
 }
@@ -632,7 +639,7 @@ body{
     left: 828px;
     padding: 24px;
     border-radius: 10px;
-    border: 2px;
+    border: 2px solid black;
     background-color: #fff;
     box-shadow: 5px 5px 5px 0px rgb(187, 185, 200);
 }

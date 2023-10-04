@@ -758,7 +758,7 @@ body{
         margin-left: 45px;
     }
     .reviews{
-        display: none!important;
+        flex-wrap: wrap;
     }
 
 }
